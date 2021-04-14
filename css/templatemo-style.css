@@ -34,7 +34,7 @@ a:focus {
 }
 
 .btn:hover {
-  background-color: #ced4da;
+  background-color: #bf8219;
 }
 
 .tm-section-pad-top {
@@ -42,7 +42,7 @@ a:focus {
 }
 
 .tm-text-primary {
-  color: #3496d8;
+  color: #bf8219;
 }
 
 .tm-font-big {
@@ -51,7 +51,7 @@ a:focus {
 
 .tm-btn-primary {
   color: white;
-  background-color: #3496d8;
+  background-color: #bf8219;
   padding: 14px 35px;
   border-radius: 30px;
 }
@@ -59,7 +59,7 @@ a:focus {
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #73c1f6;
+  background-color: #bf8270;
 }
 
 /* Navbar */
@@ -85,11 +85,11 @@ a:focus {
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #3496d8;
+  color: #bf8219;
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #8f8f8f;
+  color: gray;
 }
 
 .nav-item {
@@ -101,13 +101,13 @@ a:focus {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #8f8f8f;
+  color: gray;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #3496d8;
+  color: #bf8219;
 }
 
 .navbar-toggler {
@@ -122,17 +122,17 @@ a:focus {
 }
 
 .tm-navbar.scroll .navbar-toggler {
-  border: 1px solid #8f8f8f;
+  border: 1px solid #bf8219;
 }
 
 .tm-navbar.scroll .navbar-toggler-icon {
-  color: #8f8f8f;
+  color: #bf8219;
 }
 
 /* Hero */
 
 #hero {
-  background-image: url(../img/Flood.jpg);
+  background-image: url(../img/Cover.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -214,7 +214,7 @@ a:focus {
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: white;
-  background: #3496d8;
+  background: #bf8219;
 }
 
 /* Introduction */
@@ -232,7 +232,7 @@ a:focus {
 .tm-icon {
   display: block;
   margin-bottom: 55px;
-  color: #3496d8;
+  color: #bf8219;
 }
 
 /* Work */
@@ -264,7 +264,7 @@ a:focus {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #3ba0dd;
+  color: #bf8219;
 }
 
 .slick-dots li button:before {
@@ -415,8 +415,8 @@ figure.effect-honey:hover h2 i {
 /* Contact */
 
 #contact {
-  color: #3496d8;
-  background-image: url(../img/Rain.jpg);
+  color: #ffdea6;
+  background-image: url(../img/hope.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
@@ -448,7 +448,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-contact-item-link i,
 .tm-contact-item-link span {
-  color: #3496d8;
+  color: #ffdea6;
   transition: all 0.3s ease;
 }
 
@@ -499,7 +499,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #3496d8;
+  color: #ffdea6;
   text-decoration: none;
 }
 
@@ -565,13 +565,13 @@ p {
   }
 
   .navbar-collapse {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffdea6;
     padding: 10px;
     border-radius: 3px;
   }
 
   .navbar-collapse .nav-link {
-    color: #8f8f8f;
+    color: #ffdea6;
   }
 }
 
@@ -613,7 +613,7 @@ hr.hr-text::before
     display: inline-block;
     background: #fff;
     font-size: 2.6rem;
-    color: #3496d8;
+    color: #bf8219;
     border-radius: 30rem;
     padding: 0.2rem 2rem;
     position: absolute;
@@ -669,3 +669,55 @@ hr.hr-text2::before
 	background-color: rgba(0, 0, 0, 0.40);
 }
 
+.line-space-normal
+{
+	line-height: 140%;
+}
+
+.bouncy
+{
+	animation:bouncy 3s infinite linear;
+	position:relative;
+}
+
+@keyframes bouncy 
+{
+	0%{top:0em}
+	40%{top:0em}
+	43%{top:-0.9em}
+	46%{top:0em}
+	48%{top:-0.4em}
+	50%{top:0em}
+	100%{top:0em;}
+}
+
+.button1
+{
+padding:0.35em 1.2em;
+border:0.1em solid #bf8219;
+margin:0 0.3em 0.3em 0em;
+display: flex;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#bf8219;
+text-align:center;
+transition: all 0.2s;
+}
+
+.button1:hover
+{
+color:#bf8219;
+background-color:#bf8270;
+}
+
+@media all and (max-width:30em)
+{
+	.button1
+	{
+		display:block;
+		margin:0.4em auto;
+	}
+}
